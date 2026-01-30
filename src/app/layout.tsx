@@ -9,7 +9,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Nicolas Pellegrino | UX Design",
+  title: "Denise Tang | UX Design",
   description: "Product design for audio, haptic & hardware interaction",
 };
 
