@@ -21,7 +21,7 @@ export default function Sidebar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm text-muted hover:text-foreground transition-colors"
+              className="font-sans text-sm text-muted hover:text-foreground transition-colors"
             >
               {link.name}
             </Link>
@@ -30,7 +30,7 @@ export default function Sidebar() {
       </header>
 
       {/* Desktop Sidebar - hidden on mobile, visible on md+ */}
-      <aside className="hidden md:flex fixed left-0 top-0 h-screen w-[20vw] min-w-[200px] max-w-[280px] lg:min-w-[240px] lg:max-w-[320px] bg-background border-r border-border/40 flex-col justify-between p-6 lg:p-8">
+      <aside className="hidden md:flex fixed left-0 top-0 h-screen w-[20vw] min-w-[200px] max-w-[280px] lg:min-w-[240px] lg:max-w-[320px] bg-background flex-col justify-between p-6 lg:p-8">
         {/* Header */}
         <header>
           <div className="flex items-center justify-between">
@@ -47,7 +47,7 @@ export default function Sidebar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm text-muted hover:text-foreground transition-colors"
+              className="font-sans text-sm text-muted hover:text-foreground transition-colors"
             >
               {link.name}
             </Link>
