@@ -14,6 +14,7 @@ const responsiveColSpanClasses: Record<number, string> = {
   4: "col-span-12 sm:col-span-6 md:col-span-4",
   5: "col-span-12 sm:col-span-12 md:col-span-5",
   6: "col-span-12 sm:col-span-12 md:col-span-6",
+  12: "col-span-12",
 };
 
 const rowSpanClasses: Record<number, string> = {
@@ -30,6 +31,7 @@ function AnimatedMediaItem({
   bgColor, 
   label, 
   light,
+  src,
   index 
 }: { 
   href: string;
@@ -38,6 +40,7 @@ function AnimatedMediaItem({
   bgColor: string;
   label: string;
   light?: boolean;
+  src?: string;
   index: number;
 }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -77,7 +80,15 @@ function AnimatedMediaItem({
         ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}
       `}
     >
-      <MediaPlaceholder label={label} light={light} />
+      {src ? (
+        <img 
+          src={src} 
+          alt={label} 
+          className="w-full h-full object-contain"
+        />
+      ) : (
+        <MediaPlaceholder label={label} light={light} />
+      )}
     </Link>
   );
 }
@@ -188,6 +199,7 @@ export default function MediaGrid() {
                   bgColor={item.bgColor}
                   label={item.label}
                   light={item.light}
+                  src={item.src}
                   index={itemIndex}
                 />
               ))}

@@ -4,6 +4,7 @@ export interface ProjectMedia {
   rowSpan: number;
   bgColor: string;
   light?: boolean;
+  src?: string;
 }
 
 export interface Project {
@@ -20,7 +21,7 @@ export const projects: Project[] = [
     href: "/projects/placeholder-1",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#4a6fa5]" },
-      { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#d4e5f7]" },
+      { label: "Hero", colSpan: 6, rowSpan: 3, bgColor: "bg-[#d4e5f7]", src: "/projects/placeholder-1/hero-animation.gif" },
       { label: "Media 3", colSpan: 4, rowSpan: 2, bgColor: "bg-[#2d3748]", light: true },
       { label: "Media 4", colSpan: 4, rowSpan: 2, bgColor: "bg-[#c9c5ba]" },
     ],
