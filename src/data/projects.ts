@@ -29,7 +29,7 @@ export const projects: Project[] = [
   {
     name: "Placeholder Project 2",
     description: "Placeholder project description",
-    href: "/projects/placeholder-2",
+    href: "/projects/fitness-tracker",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#6366f1]" },
       { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#e0e7ff]" },
@@ -40,7 +40,7 @@ export const projects: Project[] = [
   {
     name: "Placeholder Project 3",
     description: "Placeholder project description",
-    href: "/projects/placeholder-3",
+    href: "/projects/google-pixel",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#059669]" },
       { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#d1fae5]" },
@@ -51,7 +51,7 @@ export const projects: Project[] = [
   {
     name: "Placeholder Project 4",
     description: "Placeholder project description",
-    href: "/projects/placeholder-4",
+    href: "/projects/mobile-banking",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#ec4899]" },
       { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#fce7f3]" },
@@ -62,7 +62,7 @@ export const projects: Project[] = [
   {
     name: "Placeholder Project 5",
     description: "Placeholder project description",
-    href: "/projects/placeholder-5",
+    href: "/projects/smart-home-hub",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#f59e0b]" },
       { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#fef3c7]" },
@@ -73,7 +73,7 @@ export const projects: Project[] = [
   {
     name: "Placeholder Project 6",
     description: "Placeholder project description",
-    href: "/projects/placeholder-6",
+    href: "/projects/voice-assistant",
     mediaItems: [
       { label: "Media 1", colSpan: 6, rowSpan: 2, bgColor: "bg-[#3b82f6]" },
       { label: "Media 2", colSpan: 6, rowSpan: 2, bgColor: "bg-[#dbeafe]" },
