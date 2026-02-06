@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const navLinks = [
-  { name: "Resume", href: "#" },
+  { name: "Resume", href: "/resume" },
   { name: "Blog", href: "#" },
 ];
 
